@@ -1,9 +1,5 @@
-number=8374665849
+number=83746658
 number_str=str(number)
 
-i=0
-while i < len(number_str):
-    print(number_str[i])
-    i=i+1
-
-
+for i in number_str:
+    print(i)
