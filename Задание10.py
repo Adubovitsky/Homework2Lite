@@ -1,10 +1,13 @@
-number=354359688555555555
+# Задача 10
+# Найти количество цифр 5 в числе
+
+number=3543596885555555
 numberstr=str(number)
-countoffive=0
+count_five=0
 
-for i in range(len(numberstr)):
-    if int(numberstr[i])==5:
-        countoffive=countoffive+1
+for i in numberstr:
+    if int(i)==5:
+        count_five=count_five+1
 
-print(countoffive)
+print(count_five)
 
